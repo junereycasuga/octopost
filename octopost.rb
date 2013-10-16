@@ -8,5 +8,8 @@
 require 'launchy'
 
 module Octopost
-	
+	OCTOPRESS_GUI = 'junereycasuga.github.io'
+	class Launch
+		Launchy.open(OCTOPRESS_GUI)
+	end
 end
